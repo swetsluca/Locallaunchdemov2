@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sultan's Flame - Authentic Mediterranean street food in Rotterdam. Best shoarma, kapsalon, falafel and more.">
+    <meta name="keywords" content="shoarma, Rotterdam, Mediterranean food, street food, kapsalon, falafel">
+    <title>Sultan's Flame | Authentic Mediterranean Street Food Rotterdam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-flame">🔥</span>
+                <span class="logo-text">Sultan's Flame</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="btn btn-primary nav-btn">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1561651823-34a0658ebc9d?w=1920&q=80" alt="Delicious shoarma meat on vertical rotisserie" loading="eager">
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-badge">
+                    <span class="flame-icon">🔥</span>
+                    <span>Rotterdam's Best Street Food</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-main">Sultan's Flame</span>
+                    <span class="title-sub">Where Fire Meets Flavor</span>
+                </h1>
+                <p class="hero-tagline">Authentic Mediterranean street food crafted with passion, fire, and the finest spices</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <span>Order Now</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#menu" class="btn btn-outline btn-large">View Menu</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label">Google Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#menu" class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Menu</span>
+                <h2 class="section-title">Taste the Fire</h2>
+                <p class="section-subtitle">Authentic Mediterranean flavors, prepared fresh daily</p>
+            </div>
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1644365584070-723349893526?w=600&q=80" alt="Classic Shoarma Wrap" loading="lazy">
+                        <div class="menu-card-badge">Bestseller</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Classic Shoarma Wrap</h3>
+                            <span class="menu-card-price">€7.50</span>
+                        </div>
+                        <p class="menu-card-description">Tender seasoned lamb or chicken, slow-roasted on our vertical rotisserie, wrapped in warm pita with fresh vegetables and our signature garlic sauce.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Lamb</span>
+                            <span class="tag">Chicken</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Menu Item 2 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Kapsalon" loading="lazy">
+                        <div class="menu-card-badge">Rotterdam Special</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Kapsalon</h3>
+                            <span class="menu-card-price">€9.50</span>
+                        </div>
+                        <p class="menu-card-description">The famous Rotterdam creation - crispy fries topped with shoarma meat, melted Gouda cheese, fresh salad, and our secret garlic sauce.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Large Portion</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Menu Item 3 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1593001872095-7d5f5c731b3e?w=600&q=80" alt="Falafel Wrap" loading="lazy">
+                        <div class="menu-card-badge">Vegetarian</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Falafel Wrap</h3>
+                            <span class="menu-card-price">€6.50</span>
+                        </div>
+                        <p class="menu-card-description">Crispy homemade falafel balls made from ground chickpeas and herbs, served in pita with tahini sauce, pickles, and fresh vegetables.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Vegan</span>
+                            <span class="tag">Healthy</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Menu Item 4 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80" alt="Chicken Plate" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Sultan's Chicken Plate</h3>
+                            <span class="menu-card-price">€12.00</span>
+                        </div>
+                        <p class="menu-card-description">Generous portion of marinated chicken shoarma served with rice, grilled vegetables, hummus, pita bread, and your choice of sauce.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Gluten Free Option</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Menu Item 5 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=600&q=80" alt="Loaded Fries" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Sultan's Loaded Fries</h3>
+                            <span class="menu-card-price">€5.50</span>
+                        </div>
+                        <p class="menu-card-description">Golden crispy fries topped with shoarma meat, special sauce, and fresh herbs. The perfect side or snack on its own.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Shareable</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Menu Item 6 -->
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80" alt="Fresh Drinks" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3 class="menu-card-title">Fresh Drinks</h3>
+                            <span class="menu-card-price">€2.50</span>
+                        </div>
+                        <p class="menu-card-description">Refreshing selection including Ayran (Turkish yogurt drink), homemade lemonade, Moroccan mint tea, and various soft drinks.</p>
+                        <div class="menu-card-tags">
+                            <span class="tag">Refreshing</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="menu-cta">
+                <a href="#contact" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-image-main">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="Sultan's Flame restaurant interior" loading="lazy">
+                    </div>
+                    <div class="about-image-secondary">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&q=80" alt="Chef preparing food" loading="lazy">
+                    </div>
+                    <div class="about-badge">
+                        <span class="about-badge-number">15</span>
+                        <span class="about-badge-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-badge">Our Story</span>
+                    <h2 class="section-title">Rotterdam's Street Food Legend</h2>
+                    <p class="about-text">
+                        Born from the vibrant streets of Rotterdam, Sultan's Flame has been serving authentic Mediterranean street food since 2009. What started as a small family food stand has grown into one of the city's most beloved culinary destinations.
+                    </p>
+                    <p class="about-text">
+                        Our secret? Traditional recipes passed down through generations, the finest halal meats, and a commitment to quality that never wavers. Every dish is prepared with care, seasoned with our signature spice blend, and cooked over open flame to capture that unmistakable smoky flavor.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Halal Certified</h4>
+                                <p>100% halal meat, sourced from trusted suppliers</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Fresh Daily</h4>
+                                <p>All ingredients prepared fresh every morning</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Fire Grilled</h4>
+                                <p>Authentic rotisserie cooking over open flame</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from real food lovers</p>
+            </div>
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <article class="review-card">
+                    <div class="review-stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"Absolutely the best shoarma in Rotterdam! I've been coming here for years and the quality never drops. The kapsalon is legendary - loaded with meat and that garlic sauce is addictive!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Ahmed K." loading="lazy">
+                        </div>
+                        <div class="review-info">
+                            <h4 class="review-name">Ahmed K.</h4>
+                            <span class="review-date">Local Guide • 12 reviews</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Review 2 -->
+                <article class="review-card">
+                    <div class="review-stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"Found this gem while visiting Rotterdam and now it's a must-visit every time I'm in the city. The falafel wrap is incredible - crispy, flavorful, and perfectly seasoned. Highly recommend!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah M." loading="lazy">
+                        </div>
+                        <div class="review-info">
+                            <h4 class="review-name">Sarah M.</h4>
+                            <span class="review-date">Amsterdam • 5 reviews</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Review 3 -->
+                <article class="review-card">
+                    <div class="review-stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"This is what street food should be! Quick service, amazing flavors, and generous portions. The chicken plate with extra garlic sauce is my go-to. Sultan's Flame never disappoints!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Mark D." loading="lazy">
+                        </div>
+                        <div class="review-info">
+                            <h4 class="review-name">Mark D.</h4>
+                            <span class="review-date">Rotterdam • 8 reviews</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="reviews-platform">
+                <p>Rated <strong>4.9/5</strong> on Google Reviews</p>
+                <div class="platform-stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Find Us</span>
+                <h2 class="section-title">Visit Sultan's Flame</h2>
+                <p class="section-subtitle">In the heart of Rotterdam</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-info">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="location-content">
+                            <h3>Address</h3>
+                            <p>West-Kruiskade 45A<br>3014 AK Rotterdam<br>Netherlands</p>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div class="location-content">
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Thursday: 11:00 - 23:00<br>Friday - Saturday: 11:00 - 01:00<br>Sunday: 12:00 - 22:00</p>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="location-content">
+                            <h3>Contact</h3>
+                            <p>Phone: <a href="tel:+31101234567">+31 10 123 4567</a><br>Email: <a href="mailto:info@sultansflame.nl">info@sultansflame.nl</a></p>
+                        </div>
+                    </div>
+                    <div class="location-transport">
+                        <h4>Getting Here</h4>
+                        <p>🚇 Metro: Rotterdam Centraal (5 min walk)<br>🚊 Tram: Lines 4, 7, 8, 20, 21, 23, 24<br>🚗 Parking: Q-Park Weena nearby</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.847456284686!2d4.4698!3d51.9225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a3f0f6f8f7%3A0x6f8f8f8f8f8f8f8f!2sWest-Kruiskade%2C%20Rotterdam!5e0!3m2!1sen!2snl!4v1600000000000!5m2!1sen!2snl"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Sultan's Flame Location Map">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title">Ready to Order?</h2>
+                    <p class="contact-text">Craving authentic Mediterranean street food? Order now for pickup or delivery. We're ready to serve you the best shoarma in Rotterdam!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="tel:+31101234567" class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Call Us</span>
+                                <span class="contact-method-value">+31 10 123 4567</span>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">We're Open</span>
+                                <span class="contact-method-value" id="openStatus">Checking...</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <a href="tel:+31101234567" class="btn btn-primary btn-large">
+                            <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <span>Call to Order</span>
+                        </a>
+                        <p class="contact-note">Or visit us at West-Kruiskade 45A</p>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="contact-image">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80" alt="Delicious grilled meat" loading="lazy">
+                    </div>
+                    <div class="contact-flame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-flame">🔥</span>
+                        <span class="logo-text">Sultan's Flame</span>
+                    </a>
+                    <p class="footer-tagline">Where Fire Meets Flavor</p>
+                    <p class="footer-description">Authentic Mediterranean street food in the heart of Rotterdam. Serving the finest shoarma, kapsalon, and falafel since 2009.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Google">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#menu">Shoarma Wrap</a></li>
+                        <li><a href="#menu">Kapsalon</a></li>
+                        <li><a href="#menu">Falafel Wrap</a></li>
+                        <li><a href="#menu">Chicken Plate</a></li>
+                        <li><a href="#menu">Loaded Fries</a></li>
+                        <li><a href="#menu">Drinks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>West-Kruiskade 45A<br>3014 AK Rotterdam</p>
+                    <p><a href="tel:+31101234567">+31 10 123 4567</a></p>
+                    <p><a href="mailto:info@sultansflame.nl">info@sultansflame.nl</a></p>
+                    <div class="footer-hours">
+                        <p><strong>Mon-Thu:</strong> 11:00 - 23:00</p>
+                        <p><strong>Fri-Sat:</strong> 11:00 - 01:00</p>
+                        <p><strong>Sun:</strong> 12:00 - 22:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sultan's Flame. All rights reserved.</p>
+                <p class="footer-credit">Made with 🔥 in Rotterdam</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
